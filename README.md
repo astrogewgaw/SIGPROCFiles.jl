@@ -1,6 +1,6 @@
 <div align="center" style="font-family:JetBrainsMono Nerd Font">
 <h1><code>SIGPROCFiles</code></h1>
-<h4><i>I/O for SIGPROC Filterbank files.</i></h4>
+<h4><i>I/O for SIGPROC Filterbank files, in Julia.</i></h4>
 <br/>
 
 <div align="justify">
