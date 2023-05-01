@@ -1,0 +1,10 @@
+name = "SIGPROCFiles"
+uuid = "5f30fb9f-668d-42ca-b792-67747b8fdcd1"
+authors = ["Ujjwal Panda <ujjwalpanda97@gmail.com>"]
+version = "0.0.1"
+
+[deps]
+PackedIntegers = "7c0bfd36-8adf-4958-a1b0-362003732c56"
+
+[compat]
+julia = "1.8"
