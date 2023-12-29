@@ -73,15 +73,14 @@ function loadhdr(s::IOStream)
 end
 
 function get(s, nbits)
-    data = Array{
-        Dict(
+    data = reinterpret(Dict(
             1 => UInt8,
             2 => UInt8,
             4 => UInt8,
             8 => UInt8,
             16 => UInt16,
             32 => Float32,
-        )[nbits]}(read(s))
+        )[nbits], read(s))
     nbits ∈ [1 2 4] ? unpack(data; n=nbits) : data
 end
 
