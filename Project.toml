@@ -8,4 +8,4 @@ PackedIntegers = "7c0bfd36-8adf-4958-a1b0-362003732c56"
 
 [compat]
 julia = "1.9"
-PackedIntegers = "^0"
+PackedIntegers = "^0.0"
