@@ -19,7 +19,7 @@ This package adds support to load and save [**`SIGPROC`**][sigproc] filterbank (
 - [ ] Saving SIGPROC time series data.
 - [x] Support for 8/32-bit filterbank and time series data.
 - [x] Support for 1/2/4-bit filterbank data (via [**`PackedIntegers.jl`**][PI]).
-- [X] Memory mapping, for files too large to be read directly into memory.
+- [ ] Memory mapping, for files too large to be read directly into memory.
 
 Install it by typing and running:
 
